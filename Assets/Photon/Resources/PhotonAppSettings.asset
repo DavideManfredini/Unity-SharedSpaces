@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: PhotonAppSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: 
-    AppIdChat: 
-    AppIdVoice: 
+    AppIdRealtime: 2247e494-9cf7-4df6-92b2-f4cb8f738a58
+    AppIdChat: 2247e494-9cf7-4df6-92b2-f4cb8f738a58
+    AppIdVoice: 2247e494-9cf7-4df6-92b2-f4cb8f738a58
     AppVersion: 
     UseNameServer: 1
     FixedRegion: usw

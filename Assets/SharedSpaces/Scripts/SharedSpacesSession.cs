@@ -62,7 +62,8 @@ public class SharedSpacesSession : NetworkBehaviour
         // the fallbackhost left, pick another client to be the host
         foreach (ulong id in NetworkManager.Singleton.ConnectedClients.Keys)
         {
-            if (id == NetworkManager.Singleton.ServerClientId)
+            if(id == NetworkManager.Singleton.LocalClientId)
+
                 continue;
 
             if (id < fallbackHostId)
